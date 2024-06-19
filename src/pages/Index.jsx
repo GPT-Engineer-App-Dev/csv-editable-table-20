@@ -1,15 +1,8 @@
 import React, { useState } from 'react';
 import Papa from 'papaparse';
 import { CSVLink } from 'react-csv';
-import {
-  Button,
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from '@/components/ui';
+import { Button } from '@/components/ui/button';
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 
 const Index = () => {
   const [data, setData] = useState([]);
